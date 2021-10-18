@@ -1,0 +1,6 @@
+video
+mp4
+flv
+music
+audio
+douyin
