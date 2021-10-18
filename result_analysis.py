@@ -11,7 +11,7 @@ def from_index_get_pcapname_test(index_path,record_path):
         end=index_data.find(',"dst_SNI":')
         #list.append(index_data[beg+11:end])
         writer.writerow([index_data[beg+11:end]])
-    #print(list)
+    print(list)
     index_file.close()
     csvfile.close()
 
